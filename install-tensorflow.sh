@@ -19,7 +19,7 @@ sudo apt-get install -y cuda
 # Configure the Environment
 # Finally we need to configure the environment to work with CUDA and cuDNN. 
 # Add to the following lines to your ~/.profile file.
-export CUDA_HOME=/usr/local/cuda
-export CUDA_ROOT=/usr/local/cuda
-export PATH=$PATH:$CUDA_ROOT/bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_ROOT/lib64
+echo export CUDA_HOME=/usr/local/cuda >> /etc/profile
+echo export CUDA_ROOT=/usr/local/cuda >> /etc/profile
+echo export PATH=$PATH:$CUDA_ROOT/bin >> /etc/profile
+echo export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_ROOT/lib64 >> /etc/profile
