@@ -19,7 +19,7 @@
 # Configure the Environment
 # Finally we need to configure the environment to work with CUDA and cuDNN. 
 # Add to the following lines to your ~/.profile file.
-echo export CUDA_HOME=/usr/local/cuda >> ~/.bashrc
-echo export CUDA_ROOT=/usr/local/cuda >> ~/.bashrc
-echo export PATH=$PATH:$CUDA_ROOT/bin >> ~/.bashrc
-echo export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_ROOT/lib64 >> ~/.bashrc
+echo "export CUDA_HOME=/usr/local/cuda" >> ~/.bashrc
+echo "export CUDA_ROOT=/usr/local/cuda" >> ~/.bashrc
+echo "export PATH=$PATH:$CUDA_ROOT/bin" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_ROOT/lib64" >> ~/.bashrc
