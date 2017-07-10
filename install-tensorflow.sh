@@ -2,7 +2,7 @@
 # First we need to install the dependencies and basic build tools required by TensorFlow. 
 # To do this execute the following commands from the ubuntu command prompt.
 sudo apt-get update
-sudo apt-get upgrade -y
+sudo apt-get upgrade -y # choose “install package maintainers version”
 sudo apt-get install -y build-essential git python-pip libfreetype6-dev libxft-dev libncurses-dev libopenblas-dev gfortran python-matplotlib libblas-dev liblapack-dev libatlas-base-dev python-dev python-pydot linux-headers-generic linux-image-extra-virtual unzip python-numpy swig python-pandas python-sklearn unzip wget pkg-config zip g++ zlib1g-dev libcurl3-dev
 sudo pip install -U pip
 
